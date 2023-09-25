@@ -63,3 +63,6 @@ function sumUpSpread(...numbers) {
 const inputNumbers = [1, 5, 10, 11, 20, 31];
 
 console.log(sumUpSpread(...inputNumbers)); // result = 78
+
+// 3. functions are objects!
+console.log(sumUpSpread); // result = [Function: sumUpSpread]
