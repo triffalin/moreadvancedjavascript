@@ -73,5 +73,5 @@ function greetUserrEdit(greetingPrefix, userName = 'user') {
 	console.log(`${greetingPrefix} ${userName}`);
 }
 
-greetUserrEdit('Hi', 'Alin');
-greetUserrEdit('Hello');
+greetUserrEdit('Hi', 'Alin'); // Hi Alin!
+greetUserrEdit('Hello'); // Hello user!
