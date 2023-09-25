@@ -35,3 +35,19 @@ console.log(cook); // => Job { title: 'Cook', location: 'Munich', salary: 35000 
 // 9b. call classes and methods(this)
 developer.describe();
 cook.describe();
+
+// 10. destructuring objects and arrays
+const input = ['Alin', 'Triff'];
+const firstName = input[0];
+const lastName = input[1];
+
+const [first, last] = input;
+console.log(first, last);
+
+const job = {
+	title: 'Developer',
+	location: 'New York',
+};
+
+const { title, location } = job;
+console.log(title, location);
