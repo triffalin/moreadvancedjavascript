@@ -66,3 +66,12 @@ console.log(sumUpSpread(...inputNumbers)); // result = 78
 
 // 3. functions are objects!
 console.log(sumUpSpread); // result = [Function: sumUpSpread]
+
+// 4. template literals
+function greetUserrEdit(greetingPrefix, userName = 'user') {
+	// console.log(greetingPrefix + '' + userName + '!');
+	console.log(`${greetingPrefix} ${userName}`);
+}
+
+greetUserrEdit('Hi', 'Alin');
+greetUserrEdit('Hello');
